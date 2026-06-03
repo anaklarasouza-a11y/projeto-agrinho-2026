@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho 2026</title>
+    <style>
+        /* Estilos básicos para o site */
+        :root {
+            --primary-color: #2e7d32; /* Verde Agrinho */
+            --secondary-color: #f57c00; /* Laranja detalhe */
+            --light-bg: #f4f6f4;
+            --dark-text: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--dark-text);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: #1b5e20;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: var(--secondary-color);
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .section-card {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--primary-color);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+
+        .highlight {
+            color: var(--secondary-color);
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 4rem;
+        }
+
+        /* Responsividade para telas menores */
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+            nav { flex-direction: column; align-items: center; }
+            nav a { margin: 0.2rem 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Agrinho 2026</h1>
+        <p>Inovação, Sustentabilidade e o Futuro do Campo</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre o Projeto</a>
+        <a href="#objetivos">Objetivos</a>
+        <a href="#equipe">Equipe</a>
+    </nav>
+
+    <main>
+        <section id="sobre" class="section-card">
+            <h2>Sobre o Projeto</h2>
+            <p>Bem-vindo ao nosso projeto do <span class="highlight">Agrinho 2026</span>! Este espaço foi criado para apresentar nossas ideias e soluções voltadas ao desenvolvimento sustentável, conectando a tecnologia do ambiente urbano com a riqueza e a importância do setor agrícola.</p>
+            <p>Aqui você poderá acompanhar nossa pesquisa, metodologias e os resultados alcançados ao longo do ano letivo.</p>
+        </section>
+
+        <section id="objetivos" class="section-card">
+            <h2>Nossos Objetivos</h2>
+            <ul>
+                <li>Promover a conscientização sobre práticas agrícolas sustentáveis.</li>
+                <li>Integrar ferramentas tecnológicas para otimização de recursos no campo.</li>
+                <li>Colaborar com a comunidade escolar na disseminação de conhecimento prático.</li>
+            </ul>
+        </section>
+
+        <section id="equipe" class="section-card">
+            <h2>Quem Somos</h2>
+            <p>Este trabalho é fruto da colaboração de alunos e professores dedicados a transformar a realidade através da educação e da pesquisa:</p>
+            <ul>
+                <li><strong>Estudantes:</strong> Nome dos Integrantes</li>
+                <li><strong>Professor(a) Orientador(a):</strong> Nome do Professor</li>
+                <li><strong>Escola:</strong> Nome da Sua Instituição de Ensino</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho - Todos os direitos reservados.</p>
+        <p>Desenvolvido para a banca avaliadora do Concurso Agrinho.</p>
+    </footer>
+
+</body>
+</html>
