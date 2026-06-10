@@ -1,152 +1,349 @@
+ ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Agrinho 2026</title>
-    <style>
-        /* Estilos básicos para o site */
-        :root {
-            --primary-color: #2e7d32; /* Verde Agrinho */
-            --secondary-color: #f57c00; /* Laranja detalhe */
-            --light-bg: #f4f6f4;
-            --dark-text: #333;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrinho 2026 - Agro Forte, Futuro Sustentável</title>
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--light-bg);
-            color: var(--dark-text);
-            line-height: 1.6;
-        }
+<link rel="stylesheet" href="style.css">
 
-        header {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        header p {
-            margin: 0.5rem 0 0 0;
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-
-        nav {
-            background-color: #1b5e20;
-            display: flex;
-            justify-content: center;
-            padding: 0.5rem;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            margin: 0 0.5rem;
-            font-weight: bold;
-            border-radius: 4px;
-            transition: background 0.3s;
-        }
-
-        nav a:hover {
-            background-color: var(--secondary-color);
-        }
-
-        main {
-            max-width: 1000px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        .section-card {
-            background: white;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            border-left: 5px solid var(--primary-color);
-        }
-
-        h2 {
-            color: var(--primary-color);
-            margin-top: 0;
-        }
-
-        .highlight {
-            color: var(--secondary-color);
-            font-weight: bold;
-        }
-
-        footer {
-            text-align: center;
-            padding: 2rem 1rem;
-            background-color: #333;
-            color: white;
-            margin-top: 4rem;
-        }
-
-        /* Responsividade para telas menores */
-        @media (max-width: 600px) {
-            header h1 { font-size: 2rem; }
-            nav { flex-direction: column; align-items: center; }
-            nav a { margin: 0.2rem 0; }
-        }
-    </style>
 </head>
 <body>
 
-    <header>
-        <h1>Agrinho 2026</h1>
-        <p>Inovação, Sustentabilidade e o Futuro do Campo</p>
-    </header>
+<!-- MENU -->
 
-    <nav>
-        <a href="#sobre">Sobre o Projeto</a>
-        <a href="#objetivos">Objetivos</a>
-        <a href="#equipe">Equipe</a>
-    </nav>
+<nav>
+    <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+        <li><a href="#tecnologia">Tecnologia</a></li>
+        <li><a href="#estatisticas">Dados</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
 
-    <main>
-        <section id="sobre" class="section-card">
-            <h2>Sobre o Projeto</h2>
-            <p>Bem-vindo ao nosso projeto do <span class="highlight">Agrinho 2026</span>! Este espaço foi criado para apresentar nossas ideias e soluções voltadas ao desenvolvimento sustentável, conectando a tecnologia do ambiente urbano com a riqueza e a importância do setor agrícola.</p>
-            <p>Aqui você poderá acompanhar nossa pesquisa, metodologias e os resultados alcançados ao longo do ano letivo.</p>
-        </section>
+<!-- HERO -->
 
-        <section id="objetivos" class="section-card">
-            <h2>Nossos Objetivos</h2>
-            <ul>
-                <li>Promover a conscientização sobre práticas agrícolas sustentáveis.</li>
-                <li>Integrar ferramentas tecnológicas para otimização de recursos no campo.</li>
-                <li>Colaborar com a comunidade escolar na disseminação de conhecimento prático.</li>
-            </ul>
-        </section>
+<header id="inicio">
+    <div class="hero">
+        <h1>🌱 AGRINHO 2026</h1>
 
-        <section id="equipe" class="section-card">
-            <h2>Quem Somos</h2>
-            <p>Este trabalho é fruto da colaboração de alunos e professores dedicados a transformar a realidade através da educação e da pesquisa:</p>
-            <ul>
-                <li><strong>Estudantes:</strong> Nome dos Integrantes</li>
-                <li><strong>Professor(a) Orientador(a):</strong> Nome do Professor</li>
-                <li><strong>Escola:</strong> Nome da Sua Instituição de Ensino</li>
-            </ul>
-        </section>
-    </main>
+        <p>
+            Agro Forte, Futuro Sustentável
+        </p>
 
-    <footer>
-        <p>&copy; 2026 Projeto Agrinho - Todos os direitos reservados.</p>
-        <p>Desenvolvido para a banca avaliadora do Concurso Agrinho.</p>
-    </footer>
+        <a href="#sobre" class="btn">
+            Saiba Mais
+        </a>
+    </div>
+</header>
+
+<!-- SOBRE -->
+
+<section id="sobre">
+
+    <h2 class="titulo">
+        Sobre o Projeto
+    </h2>
+
+    <div class="sobre">
+
+        <img src="img/campo.jpg" alt="Campo">
+
+        <div class="sobre-texto">
+
+            <p>
+                O Projeto Agrinho 2026 busca conscientizar
+                estudantes e comunidades sobre a importância
+                da agricultura sustentável, da preservação
+                ambiental e da inovação tecnológica.
+            </p>
+
+            <br>
+
+            <p>
+                O campo e a cidade estão conectados.
+                Os alimentos que chegam às mesas das famílias
+                dependem do trabalho dos produtores rurais,
+                que utilizam conhecimento, dedicação e
+                tecnologia para produzir com responsabilidade.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CARDS -->
+
+<section id="sustentabilidade">
+
+<h2 class="titulo">
+Sustentabilidade
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🌳 Preservação Ambiental</h3>
+
+<p>
+A conservação das florestas e dos recursos naturais
+garante equilíbrio ecológico e qualidade de vida.
+</p>
+</div>
+
+<div class="card">
+<h3>💧 Economia de Água</h3>
+
+<p>
+O uso consciente da água contribui para a produção
+agrícola e para a preservação dos rios.
+</p>
+</div>
+
+<div class="card">
+<h3>♻️ Reciclagem</h3>
+
+<p>
+A reciclagem reduz resíduos e ajuda na construção
+de uma sociedade mais sustentável.
+</p>
+</div>
+
+<div class="card">
+<h3>🌎 Futuras Gerações</h3>
+
+<p>
+Cuidar do planeta hoje significa garantir um futuro
+melhor para todos.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- TECNOLOGIA -->
+
+<section id="tecnologia">
+
+<h2 class="titulo">
+Tecnologia no Campo
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🚁 Drones</h3>
+
+<p>
+Monitoramento das plantações e análise de áreas
+agrícolas em tempo real.
+</p>
+</div>
+
+<div class="card">
+<h3>📡 Sensores Inteligentes</h3>
+
+<p>
+Controle de umidade do solo e otimização da irrigação.
+</p>
+</div>
+
+<div class="card">
+<h3>🤖 Inteligência Artificial</h3>
+
+<p>
+Auxilia na previsão climática e no aumento da produtividade.
+</p>
+</div>
+
+<div class="card">
+<h3>🚜 Máquinas Modernas</h3>
+
+<p>
+Equipamentos avançados tornam o trabalho rural
+mais eficiente e sustentável.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ESTATÍSTICAS -->
+
+<section id="estatisticas" class="estatisticas">
+
+<h2 class="titulo">
+O Campo em Números
+</h2>
+
+<div class="numeros">
+
+<div class="numero">
+<h2>70%</h2>
+<p>da água doce é utilizada na agricultura.</p>
+</div>
+
+<div class="numero">
+<h2>100%</h2>
+<p>das pessoas dependem da produção agrícola.</p>
+</div>
+
+<div class="numero">
+<h2>+5 Bi</h2>
+<p>de pessoas são alimentadas pelo setor agrícola.</p>
+</div>
+
+<div class="numero">
+<h2>🌱</h2>
+<p>Sustentabilidade é o caminho para o futuro.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- GALERIA -->
+
+<section id="galeria">
+
+<h2 class="titulo">
+Galeria Agrinho
+</h2>
+
+<div class="galeria">
+
+<img src="img/fazenda1.jpg">
+<img src="img/fazenda2.jpg">
+<img src="img/fazenda3.jpg">
+<img src="img/fazenda4.jpg">
+<img src="img/fazenda5.jpg">
+<img src="img/fazenda6.jpg">
+
+</div>
+
+</section>
+
+<!-- CAMPO E CIDADE -->
+
+<section>
+
+<h2 class="titulo">
+Campo e Cidade: Uma Parceria Essencial
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🏙 Cidade</h3>
+
+<p>
+A cidade depende dos alimentos, matérias-primas
+e energia produzidos no campo.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌾 Campo</h3>
+
+<p>
+O campo utiliza tecnologia, máquinas e serviços
+desenvolvidos nos centros urbanos.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🤝 União</h3>
+
+<p>
+A cooperação entre campo e cidade fortalece a
+economia e promove desenvolvimento sustentável.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FRASE DE IMPACTO -->
+
+<section>
+
+<div class="card">
+
+<h2 style="text-align:center;">
+🌱 "Plantar conhecimento hoje é colher um futuro melhor amanhã."
+</h2>
+
+</div>
+
+</section>
+
+<!-- CONTATO -->
+
+<section id="contato" class="contato">
+
+<h2 class="titulo">
+Contato
+</h2>
+
+<form>
+
+<input type="text"
+placeholder="Digite seu nome">
+
+<input type="email"
+placeholder="Digite seu e-mail">
+
+<textarea
+placeholder="Digite sua mensagem"></textarea>
+
+<button>
+Enviar
+</button>
+
+</form>
+
+</section>
+
+<!-- RODAPÉ -->
+
+<footer>
+
+<h2>AGRINHO 2026</h2>
+
+<p>
+Agro Forte, Futuro Sustentável
+</p>
+
+<p>
+Projeto desenvolvido para conscientização ambiental,
+valorização do produtor rural e fortalecimento da
+conexão entre campo e cidade.
+</p>
+
+<p>
+© 2026 - Todos os direitos reservados.
+</p>
+
+</footer>
 
 </body>
 </html>
+```
